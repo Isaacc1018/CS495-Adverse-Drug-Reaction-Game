@@ -10,7 +10,7 @@
         android:id="@+id/button_second4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Benadryl"
+        android:text="Opiod"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,7 +22,7 @@
         android:id="@+id/button_second3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Motrin"
+        android:text="Acetaminophen"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         android:id="@+id/button_second2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ibuprofen"
+        android:text="Diphenhydramine"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,5 +63,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.956" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="20dp"
+        android:text="Ibuprofen"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_second4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

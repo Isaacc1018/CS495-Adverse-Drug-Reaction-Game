@@ -24,5 +24,27 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+
+        android:id="@+id/SecondFragment"
+        android:name="com.example.adversedrugreactiongame.SecondFragment"
+        android:label="@string/Ibuprofen"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_ibuprofenFragment"
+            app:destination="@id/ibuprofenFragment"
+            tools:ignore="DuplicateIds" />
     </fragment>
+    <fragment
+        android:id="@+id/ibuprofenFragment"
+        android:name="com.example.adversedrugreactiongame.ibuprofenFragment"
+        android:label="Main Menu"
+        tools:layout="@layout/ibuprofen_first"
+        tools:ignore="DuplicateIds">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+
 </navigation>
